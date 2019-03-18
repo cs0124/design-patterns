@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e844614-5a57-4cc7-ab4a-ad92f1816149" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/IPassprotForThird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/LoginAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/LoginForQQAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/LoginForWechatAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/passportForThirdAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/EventLisenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Keybord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/MouseEventCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/MouseEventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/MouseEventType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/ResultMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/ResultMsg.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,108 +36,64 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/ResultMsg.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="153">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/LoginService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/EventLisenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/LoginAdapter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/Mouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="475">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/LoginForQQAdapter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/MouseEventCallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-150">
+              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/LoginForWechatAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/IPassprotForThird.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/MouseEventTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/passportForThirdAdapter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/MouseEventType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adapter/Member.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer/Keybord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-              <folding>
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -159,24 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/proxy/StaticProxy/Son.java" />
-        <option value="$PROJECT_DIR$/src/main/java/proxy/StaticProxy/Mother.java" />
-        <option value="$PROJECT_DIR$/src/main/java/proxy/StaticProxy/StaticProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/proxy/DynamicProxy/DynamicProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/proxy/DynamicProxy/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/proxy/DynamicProxy/MeiPo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/delegate/IEmployee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/delegate/EmployeeA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/delegate/EmployeeB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/delegate/Leader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/delegate/Boss.java" />
-        <option value="$PROJECT_DIR$/src/main/java/delegate/DelegateTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/template/RowMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/template/Member.java" />
-        <option value="$PROJECT_DIR$/src/main/java/template/MemberDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/template/MemberDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/template/JDBCTemlpate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/singleton/HungrySingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/HungryStaticSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/hungry/lazy/LazySimpleSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/seriable/SeriableSingleton.java" />
@@ -210,6 +147,24 @@
         <option value="$PROJECT_DIR$/src/main/java/adapter/LoginForWechatAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/IPassprotForThird.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/passportForThirdAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adapter/passportTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/events/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/events/core/EventLisenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/events/core/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/events/core/MouseEventTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/events/mouseevent/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/events/core/mouseevent/MouseEventTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/events/mouseevent/MouseEventTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/mouseevent/MouseEventTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/core/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/core/EventLisenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/core/MouseEventTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/mouseevent/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/mouseevent/Keybord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/mouseevent/MouseEventCallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/EventLisenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/MouseEventTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer/MouseEventType.java" />
       </list>
     </option>
   </component>
@@ -233,7 +188,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="6" />
     <option name="y" value="-11" />
     <option name="width" value="1346" />
@@ -273,14 +228,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -292,11 +239,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552918179066" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552919127724" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -305,9 +252,11 @@
       <recent name="delegate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\design-patterns\src\main\java\observer\events\mouseevent" />
+      <recent name="D:\workspace\design-patterns\src\main\java\observer\events" />
+      <recent name="D:\workspace\design-patterns\src\main\java\observer\events\core" />
+      <recent name="D:\workspace\design-patterns\src\main\java\observer" />
       <recent name="D:\workspace\design-patterns\src\test\java" />
-      <recent name="D:\workspace\design-patterns\src\main\java\singleton" />
-      <recent name="D:\workspace\design-patterns\src\main\java\singleton\hungry" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -455,16 +404,15 @@
       <workItem from="1552783557404" duration="4065000" />
       <workItem from="1552909903111" duration="3731000" />
       <workItem from="1552913884658" duration="67000" />
-      <workItem from="1552913957784" duration="2998000" />
+      <workItem from="1552913957784" duration="4412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13673000" />
+    <option name="totallyTimeSpent" value="15087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="-11" width="1346" height="702" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27864993" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -474,7 +422,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32818532" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5868726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -505,24 +453,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/StaticProxy/Son.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/StaticProxy/Mother.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/StaticProxy/StaticProxyTest.java" />
-    <entry file="jar://C:/Program Files/java/jdk1.8.0_45/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/DynamicProxy/DynamicProxyTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/DynamicProxy/Customer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/DynamicProxy/MeiPo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/delegate/IEmployee.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/delegate/EmployeeA.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/delegate/EmployeeB.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/delegate/DelegateTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/delegate/Leader.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/delegate/Boss.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/template/MemberDaoTest.java" />
@@ -787,6 +717,85 @@
             <element signature="e#367#368#0" expanded="true" />
             <element signature="e#394#395#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adapter/passportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/EventLisenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Event.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/gupao/2019/源码/gupaoedu-vip-pattern-observer/gupaoedu-vip-pattern-observer/src/main/java/com/gupaoedu/vip/pattern/observer/events/MouseEventTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/core/MouseEventTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/EventLisenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Keybord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/MouseEventCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/MouseEventTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer/MouseEventType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
