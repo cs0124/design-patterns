@@ -4,9 +4,9 @@ public class ResultMsg {
 
     private int code;
     private String msg;
-    private String data;
+    private Object data;
 
-    public ResultMsg(int code, String msg, String data) {
+    public ResultMsg(int code, String msg, Object data) {
         this.code = code;
         this.msg = msg;
         this.data = data;
@@ -28,7 +28,7 @@ public class ResultMsg {
         this.msg = msg;
     }
 
-    public String getData() {
+    public Object getData() {
         return data;
     }
 
